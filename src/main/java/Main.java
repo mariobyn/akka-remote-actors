@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String... args) throws InterruptedException {
         /**
-         * run first remote actor and then lookup for the actor from remote system
+         * run first remote actor and then lookup for actor from remote system
          */
         MainRemote.main(args);
         Thread.sleep(1000);
